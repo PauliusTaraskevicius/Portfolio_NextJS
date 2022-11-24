@@ -10,7 +10,6 @@ function PostItem(props) {
       </Link>
       <p>{description}</p>
       <p>{url}</p>
-      <p>{typeof id}</p>
       <br />
     </li>
   );
