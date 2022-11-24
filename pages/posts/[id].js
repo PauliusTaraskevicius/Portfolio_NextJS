@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { getPostById, getAllPosts } from "../../helpers/api-util";
+import Meta from "../../components/Meta";
 
 function PostDetailPage(props) {
   const post = props.selectedPost;
@@ -14,6 +15,7 @@ function PostDetailPage(props) {
 
   return (
     <Fragment>
+      <Meta title={post.title} description={post.description}/>
       <h1>{post.title}</h1>
       <p>{post.description}</p>
       <p>{post.url}</p>

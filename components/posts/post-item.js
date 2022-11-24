@@ -5,6 +5,7 @@ function PostItem(props) {
 
   return (
     <li>
+      
       <Link href={`/posts/${id}`}>
         <h1>{title}</h1>
       </Link>
