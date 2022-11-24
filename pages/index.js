@@ -6,9 +6,12 @@ import PostsList from "../components/posts/posts-list";
 export default function Home({posts}) {
   return (
     <div>
-      {" "}
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      {/* <PostsList posts={posts}/>
       <PostsList posts={posts}/>
+      <PostsList posts={posts}/>
+      <PostsList posts={posts}/>
+      <PostsList posts={posts}/>
+      <PostsList posts={posts}/> */}
     </div>
   );
 }
