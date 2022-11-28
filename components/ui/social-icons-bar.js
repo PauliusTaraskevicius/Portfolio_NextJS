@@ -38,6 +38,17 @@ function SocialIconsBar() {
             />
           </li>
         </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
+            <Image
+              className="object-cover object-center rounded"
+              src="/images/social_icons/github.png"
+              alt="profile"
+              width={24}
+              height={24}
+            />
+          </li>
+        </a>
       </ul>
     </div>
   );

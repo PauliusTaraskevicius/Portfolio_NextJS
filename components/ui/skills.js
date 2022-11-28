@@ -2,18 +2,15 @@ import Image from "next/image";
 
 function Skills() {
   return (
-    <section class="bg-red-100 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-row justify-center">
-        <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 justify-center">
-          <div class="w-full sm:p-4 px-4 mb-6 text-center">
-            <h1 class="title-font font-medium text-xl mb-2 text-gray-900">
+    <section className="bg-red-100 body-font">
+      <div className="container px-5 py-10 mx-auto flex flex-row justify-center">
+        <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 justify-center">
+          <div className="w-full sm:p-4 px-4 mb-6 text-center">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 underline underline-offset-8 decoration-red-500">
               Skills
             </h1>
-            <div class="leading-relaxed">
-              Frameworks and libraries that I use for development
-            </div>
           </div>
-          <div class="p-4 items-center">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/js.png"
@@ -22,7 +19,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div class="p-4 ">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/next.png"
@@ -31,7 +28,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div class="p-4 ">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/react.png"
@@ -40,7 +37,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div class="p-4 ">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/django.png"
@@ -49,7 +46,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div class="p-4 ">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/tailwind.png"
@@ -58,7 +55,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div class="p-4 ">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/html.png"
@@ -67,7 +64,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div class="p-4 ">
+          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/css.png"

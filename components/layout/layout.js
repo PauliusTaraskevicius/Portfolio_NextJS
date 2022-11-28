@@ -4,6 +4,7 @@ import MainNavigation from "./main-nav";
 import Banner from "../ui/banner";
 import Services from "../ui/services";
 import Skills from "../ui/skills";
+import Footer from "./footer";
 
 function Layout(props) {
   const { children } = props;
@@ -15,6 +16,7 @@ function Layout(props) {
       <Services />
       <Skills />
       <main>{children}</main>
+      <Footer />
     </Fragment>
   );
 }
