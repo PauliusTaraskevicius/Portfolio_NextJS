@@ -8,7 +8,7 @@ function MainNavigation() {
 
   const listenScrollEvent = () => {
     window.scrollY > 5
-      ? setNavColor("rgb(252, 165, 165)")
+      ? setNavColor("rgb(254, 226, 226)")
       : setNavColor("transparent");
   };
 
@@ -53,7 +53,7 @@ function MainNavigation() {
           onClick={scrollToTop}
           spy={true}
           smooth={true}
-          offset={50}
+          offset={10}
           duration={500}
           delay={0}
         >
@@ -66,7 +66,7 @@ function MainNavigation() {
           to="skills"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           delay={0}
         >
@@ -79,7 +79,7 @@ function MainNavigation() {
           to="projects"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={10}
           duration={1000}
           delay={0}
         >
@@ -92,7 +92,7 @@ function MainNavigation() {
           to="services"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-70}
           duration={500}
           delay={0}
         >
