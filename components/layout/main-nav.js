@@ -1,8 +1,13 @@
 import { useState } from "react";
 import Image from "next/image";
+import { Link, animateScroll as scroll,  } from 'react-scroll'
 
 function MainNavigation() {
   const [open, setOpen] = useState(false);
+
+  function scrollToTop() {
+    scroll.scrollToTop();
+  }
 
   return (
     <nav className="fixed top-0 z-10 items-center justify-center w-screen px-2 lg:px-40 sm:px-10 sm:flex">
@@ -29,19 +34,26 @@ function MainNavigation() {
       <ul
         className={` sm:flex cursor-pointer ${open ? "" : "hidden "}`}
         id="navContent"
-      >
+      > <Link activeClass="active" onClick={scrollToTop} spy={true} smooth={true} offset={50} duration={500}>
         <li className="px-6 py-4 transition duration-100 transform border-transparent lg:text-xl sm:border-b-2 sm:hover:text-red-500 sm:hover:underline underline-offset-4 hover:scale-110 hover">
           Home
         </li>
+        </Link>
+        <Link activeClass="active" to="skills" spy={true} smooth={true} offset={50} duration={500}>
         <li className="px-6 py-4 transition duration-100 transform border-transparent lg:text-xl sm:border-b-2 sm:hover:text-red-500 sm:hover:underline underline-offset-4 hover:scale-110 hover">
-          About
+          Skills
         </li>
+        </Link>
+        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>
         <li className="px-6 py-4 transition duration-100 transform border-transparent lg:text-xl sm:border-b-2 sm:hover:text-red-500 sm:hover:underline underline-offset-4 hover:scale-110 hover">
           Projects
         </li>
+        </Link>
+        <Link activeClass="active" to="services" spy={true} smooth={true} offset={50} duration={500}>
         <li className="px-6 py-4 transition duration-100 transform border-transparent lg:text-xl sm:border-b-2 sm:hover:text-red-500 sm:hover:underline underline-offset-4 hover:scale-110 hover">
           Services
         </li>
+        </Link>
         <li className="block px-6 py-4 transition duration-100 transform border-transparent md:hidden lg:hidden lg:text-xl sm:border-b-2 hover:scale-110 hover">
           Contact
         </li>

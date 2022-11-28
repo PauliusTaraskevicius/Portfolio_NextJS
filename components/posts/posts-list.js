@@ -2,14 +2,13 @@ import PostItem from "./post-item";
 
 function PostsList({ posts }) {
   return (
-    <section id="posts" className="body-font">
-      <div className="container px-5 py-10 mx-auto">
+    <section id="projects" className="body-font">
+      <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-10 justify-center text-center">
           <div className="w-full mb-6 lg:w-1/2 lg:mb-0">
             <h1 className="mb-2 text-2xl font-medium sm:text-3xl title-font underline underline-offset-8 decoration-red-500">
               Projects
             </h1>
-
           </div>
         </div>
 

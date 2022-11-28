@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Services() {
   return (
-    <section class="body-font">
+    <section id="services" class="body-font">
       <div class="container px-5 py-10 mx-auto">
         <div class="text-center mb-10">
           <h1 class="sm:text-3xl text-2xl font-medium title-font  mb-4 underline underline-offset-8 decoration-red-500">
