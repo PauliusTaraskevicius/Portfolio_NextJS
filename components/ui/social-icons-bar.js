@@ -3,10 +3,10 @@ import Link from "next/link";
 
 function SocialIconsBar() {
   return (
-    <div className="hidden absolute left-0 my-2 mx-12 2xl:block ">
+    <div className="absolute left-0 hidden mx-12 my-2 2xl:block ">
       <ul className="flex flex-col ">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="my-4 py-2 px-2 border rounded-full border-red-200 transition duration-200 transform hover:scale-110 hover cursor-pointer">
+          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/social_icons/fb.png"
@@ -17,7 +17,7 @@ function SocialIconsBar() {
           </li>
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="my-4 py-2 px-2 border rounded-full border-red-200 transition duration-200 transform hover:scale-110 hover cursor-pointer">
+          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/social_icons/instagram.png"
@@ -28,7 +28,7 @@ function SocialIconsBar() {
           </li>
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="my-4 py-2 px-2 border rounded-full border-red-200 transition duration-200 transform hover:scale-110 hover cursor-pointer">
+          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
             <Image
               className="object-cover object-center rounded"
               src="/images/social_icons/linkedin.png"
