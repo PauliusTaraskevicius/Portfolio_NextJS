@@ -3,6 +3,7 @@ import Meta from "../Meta";
 import MainNavigation from "./main-nav";
 import Banner from "../ui/banner";
 import Services from "../ui/services";
+import Skills from "../ui/skills";
 
 function Layout(props) {
   const { children } = props;
@@ -12,6 +13,7 @@ function Layout(props) {
       <Banner />
       <MainNavigation />
       <Services />
+      <Skills />
       <main>{children}</main>
     </Fragment>
   );

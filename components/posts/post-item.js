@@ -19,10 +19,7 @@ function PostItem(props) {
           {title}
         </h1>
       </Link>
-      <p className="text-base leading-relaxed">
-        Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
-        disrupt edison bulbche.
-      </p>
+      <p className="text-base leading-relaxed">{title}</p>
     </>
   );
 }
