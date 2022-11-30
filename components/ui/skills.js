@@ -10,7 +10,7 @@ function Skills() {
               Skills
             </h1>
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/js.png"
@@ -19,7 +19,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/next.png"
@@ -28,7 +28,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/react.png"
@@ -37,7 +37,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/django.png"
@@ -46,7 +46,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/tailwind.png"
@@ -55,7 +55,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/html.png"
@@ -64,7 +64,7 @@ function Skills() {
               height={48}
             />
           </div>
-          <div className="p-4 transition duration-200 transform hover:scale-110 hover">
+          <div className="p-4">
             <Image
               className="object-cover object-center rounded"
               src="/images/skills_icons/css.png"

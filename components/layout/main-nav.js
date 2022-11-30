@@ -20,9 +20,11 @@ function MainNavigation() {
     scroll.scrollToTop();
   }
 
-
   return (
-    <nav style={{ backgroundColor: navColor }} className="fixed top-0 z-10 items-center justify-center w-screen px-2 lg:px-40 sm:px-10 sm:flex">
+    <nav
+      style={{ backgroundColor: navColor }}
+      className="fixed top-0 items-center justify-center w-screen px-2 lg:px-40 sm:px-10 sm:flex"
+    >
       <div
         className="flex justify-between px-4 pb-1 sm:py-0"
         onClick={() => setOpen(!open)}
@@ -49,6 +51,7 @@ function MainNavigation() {
       >
         {" "}
         <Link
+          href="/"
           activeClass="active"
           onClick={scrollToTop}
           spy={true}
