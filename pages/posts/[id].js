@@ -1,9 +1,16 @@
 import { Fragment } from "react";
 import { getPostById, getAllPosts } from "../../helpers/api-util";
+import NotFound from "../404";
 import Meta from "../../components/Meta";
 
 function PostDetailPage(props) {
   const post = props.selectedPost;
+
+  if(post === null) {
+    return (
+      <NotFound />
+    )
+  }
 
   if (!post) {
     return (
@@ -30,7 +37,7 @@ export async function getStaticProps(context) {
 
   return {
     props: {
-      selectedPost: post,
+      selectedPost: post || null
     },
     revalidate: 30,
   };
