@@ -3,7 +3,7 @@ import SocialIconsBar from "./social-icons-bar";
 
 function Banner() {
   return (
-    <section className="font-serif bg-red-100">
+    <section className="">
       <div className="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
         <SocialIconsBar />
         <div className="flex flex-col items-center mb-16 text-center 2xl:ml-24 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">

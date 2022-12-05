@@ -1,10 +1,6 @@
-
-
 function Footer() {
-
-
-  const year = new Date()
-  const getCurrentYear = year.getFullYear()
+  const year = new Date();
+  const getCurrentYear = year.getFullYear();
 
   return (
     <footer class="text-gray-600 body-font bg-gray-200">

@@ -12,14 +12,14 @@ function PostItem(props) {
           alt="content"
         />
       </Link>
-      <h3 className="text-xs font-medium tracking-widest text-indigo-500 title-font">
+      <h3 className="text-xs font-medium tracking-widest text-indigo-500 title-font text-center">
         {title}
       </h3>
 
-      <h1 className="mb-4 text-lg font-medium text-gray-900 title-font">
+      <h1 className="mb-4 text-lg font-medium text-gray-900 title-font text-center">
         {title}
       </h1>
-      <p className="text-base leading-relaxed">{title}</p>
+      {/* <p className="text-base leading-relaxed">{title}</p> */}
     </div>
   );
 }

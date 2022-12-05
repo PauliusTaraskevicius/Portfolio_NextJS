@@ -1,15 +1,16 @@
 import { Fragment } from "react";
+
 import { getPostById, getAllPosts } from "../../helpers/api-util";
+
 import NotFound from "../404";
-import Meta from "../../components/Meta";
+
+import PostDetails from "../../components/posts/post-details";
 
 function PostDetailPage(props) {
   const post = props.selectedPost;
 
-  if(post === null) {
-    return (
-      <NotFound />
-    )
+  if (post === null) {
+    return <NotFound />;
   }
 
   if (!post) {
@@ -22,10 +23,7 @@ function PostDetailPage(props) {
 
   return (
     <Fragment>
-      <Meta title={post.title} description={post.description}/>
-      <h1>{post.title}</h1>
-      <p>{post.description}</p>
-      <p>{post.url}</p>
+      <PostDetails post={post} />
     </Fragment>
   );
 }
@@ -37,7 +35,7 @@ export async function getStaticProps(context) {
 
   return {
     props: {
-      selectedPost: post || null
+      selectedPost: post || null,
     },
     revalidate: 30,
   };
