@@ -13,7 +13,7 @@ function NotFound() {
   }, []);
 
   return (
-    <main className="absolute top-0 h-full w-full flex flex-col justify-center items-center bg-[#1A2238] z-20">
+    <main className="w-full h-screen bg-center bg-cover  flex flex-col justify-center items-center bg-[#1A2238]">
       <h1 className="font-extrabold tracking-widest text-white text-9xl">
         404
       </h1>

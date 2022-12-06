@@ -60,7 +60,7 @@ function MainNavigation() {
     // </nav>
 
     <>
-      <nav class="fixed top-0 w-screen lg:px-40 sm:px-10 px-2 sm:flex justify-between items-center border-b-1 border-gray-600 z-20">
+      <nav class="fixed top-0 w-screen lg:px-40 sm:px-10 px-2 sm:flex justify-between items-center border-b-1 bg-white border-gray-600 z-40">
         <div
           class="flex px-4 justify-between sm:py-0 pb-1"
           onClick={() => setOpen(!open)}
@@ -86,22 +86,22 @@ function MainNavigation() {
           id="navContent"
         >
           <Link href='/'>
-          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
+          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white duration-200 sm:hover:bg-transparent">
             Projects
           </li>
           </Link>
           <Link href='/'>
-          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
+          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white duration-200 sm:hover:bg-transparent">
             Experience
           </li>
           </Link>
           <Link href='/'>
-          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
+          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white duration-200 sm:hover:bg-transparent">
             About
           </li>
           </Link>
           <Link href='/'>
-          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent">
+          <li class="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white duration-200 sm:hover:bg-transparent">
             Contact
           </li>
           </Link>

@@ -3,49 +3,49 @@ import Link from "next/link";
 
 function SocialIconsBar() {
   return (
-    <div className="absolute left-0 hidden mx-12 my-2 2xl:block ">
-      <ul className="flex flex-col ">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
+    <div className="flex">
+      <ul className="flex flex-row">
+        <a href="#" target="_blank" rel="noopener noreferrer" className="px-1">
+          <li className=" my-4 transition duration-200 transform border rounded-full cursor-pointer ">
             <Image
               className="object-cover object-center rounded"
-              src="/images/social_icons/fb.png"
+              src="/images/social_icons/facebook.png"
               alt="profile"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
             />
           </li>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
+        <a href="#" target="_blank" rel="noopener noreferrer" className="px-1">
+          <li className=" my-4 transition duration-200 transform border rounded-full cursor-pointer ">
             <Image
               className="object-cover object-center rounded"
               src="/images/social_icons/instagram.png"
               alt="profile"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
             />
           </li>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
+        <a href="#" target="_blank" rel="noopener noreferrer" className="px-1">
+          <li className=" my-4 transition duration-200 transform border rounded-full cursor-pointer">
             <Image
               className="object-cover object-center rounded"
               src="/images/social_icons/linkedin.png"
               alt="profile"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
             />
           </li>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <li className="px-2 py-2 my-4 transition duration-200 transform border border-red-200 rounded-full cursor-pointer hover:scale-110 hover">
+        <a href="#" target="_blank" rel="noopener noreferrer" className="px-1">
+          <li className=" my-4 transition duration-200 transform border rounded-full cursor-pointer">
             <Image
               className="object-cover object-center rounded"
               src="/images/social_icons/github.png"
               alt="profile"
-              width={24}
-              height={24}
+              width={32}
+              height={32}
             />
           </li>
         </a>
