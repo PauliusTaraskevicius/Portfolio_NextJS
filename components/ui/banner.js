@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 import SocialIconsBar from "./social-icons-bar";
 
 function Banner() {
@@ -24,15 +25,17 @@ function Banner() {
 
         <div className="mx-auto mt-6 w-full max-w-sm rounded-md flex justify-center bg-white">
           <div className="flex flex-col md:flex-row">
+          <Link href='/posts/projects'>
             <button
               type="button"
-              className="h-20 px-7 m-2  transform rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+              className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
             >
               Projects
             </button>
+          </Link>
             <button
               type="button"
-              className="h-20 px-7 m-2 transform rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+              className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
             >
               Experience
             </button>

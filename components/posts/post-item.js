@@ -5,7 +5,10 @@ function PostItem(props) {
 
   return (
     <div>
-      <Link href="/" class="relative block h-48 overflow-hidden rounded">
+      <Link
+        href={`/posts/${id}`}
+        class="relative block h-48 overflow-hidden rounded-lg shadow-xl"
+      >
         <img
           alt="ecommerce"
           class="block h-full w-full object-cover object-center cursor-pointer"
