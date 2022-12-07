@@ -22,8 +22,8 @@ function ParticlesBackground(props) {
           scaleMobile: 1.0,
           color: '#EC4578',
           backgroundColor: '#FFFFFF',
-          points: 20,
-          maxDistance: 15,
+          points: 10,
+          maxDistance: 12,
           spacing: 20.00,
         })
       );

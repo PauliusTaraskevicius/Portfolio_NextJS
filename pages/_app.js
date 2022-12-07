@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-    }, 1800);
+    }, 1000);
 
     const threeScript = document.createElement("script");
     threeScript.setAttribute("id", "threeScript");

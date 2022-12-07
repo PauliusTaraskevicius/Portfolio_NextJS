@@ -5,21 +5,18 @@ function PostItem(props) {
 
   return (
     <div>
-      <Link href={`/posts/${id}`}>
+      <Link href="/" class="relative block h-48 overflow-hidden rounded">
         <img
-          className="object-cover object-center w-full h-40 mb-6 rounded transition duration-200 transform hover:scale-110 hover"
-          src="https://dummyimage.com/720x400"
-          alt="content"
+          alt="ecommerce"
+          class="block h-full w-full object-cover object-center cursor-pointer"
+          src="https://dummyimage.com/420x260"
         />
       </Link>
-      <h3 className="text-xs font-medium tracking-widest text-indigo-500 title-font text-center">
-        {title}
-      </h3>
-
-      <h1 className="mb-4 text-lg font-medium text-gray-900 title-font text-center">
-        {title}
-      </h1>
-      {/* <p className="text-base leading-relaxed">{title}</p> */}
+      {/* <div class="mt-4">
+  <h3 class="title-font mb-1 text-xs tracking-widest text-gray-500">PROJECT</h3>
+  <h2 class="title-font text-lg font-medium text-gray-900">The Catalyzer</h2>
+  <p class="mt-1">01/09/2022</p>
+  </div> */}
     </div>
   );
 }
