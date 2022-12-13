@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from 'next/link'
+import Footer from "../layout/footer";
 import SocialIconsBar from "./social-icons-bar";
 
 function Banner() {
   return (
-    <div className="container mx-auto px-6 py-16 pt-28 text-center grid h-screen place-items-center z-20">
+    <div className="container mx-auto px-6 xl:py-16 xl:pt-28 text-center grid h-screen place-items-center z-20">
       <div className="mx-auto max-w-lg">
         <p className="my-4 text-lg  text-pink-600 dark:text-white md:text-xl text-left">
           Hello! My name is
@@ -23,32 +24,33 @@ function Banner() {
         </p>
         <SocialIconsBar />
 
-        <div className="mx-auto mt-6 w-full max-w-sm rounded-md flex justify-center bg-white">
+        <div className="mx-auto mt-6 w-full max-w-sm rounded-md flex justify-center">
           <div className="flex flex-col md:flex-row">
           <Link href='/posts/projects'>
             <button
               type="button"
-              className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+              className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
             >
               Projects
             </button>
           </Link>
             <button
               type="button"
-              className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+              className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
             >
               Experience
             </button>
 
             <button
               type="button"
-              className="h-20 px-7 m-2 transdiv rounded-lg shadow-xl py-2 text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+              className="h-20 px-7 m-2  rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
             >
               About
             </button>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

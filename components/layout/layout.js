@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import Meta from "../Meta";
 import MainNavigation from "./main-nav";
 import ParticlesBackground from "../ui/particles/ParticlesBackground";
-import Footer from "./footer";
 
 function Layout(props) {
   const { children } = props;
@@ -14,7 +13,6 @@ function Layout(props) {
       <ParticlesBackground>
         <main>{children}</main>
       </ParticlesBackground>
-      <Footer />
     </Fragment>
   );
 }

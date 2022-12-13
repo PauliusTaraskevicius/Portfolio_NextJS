@@ -105,7 +105,7 @@ function MainNavigation() {
               Projects
             </li>
           </Link>
-          <Link href="/">
+          <Link href="/experience">
             <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white sm:hover:bg-transparent">
               Experience
             </li>

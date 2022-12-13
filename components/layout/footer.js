@@ -3,7 +3,7 @@ function Footer() {
   const getCurrentYear = year.getFullYear();
 
   return (
-    <footer className="relative pt-8 pb-6">
+    <footer className="relative mt-16 xl:absolute">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center text-zinc-500">
