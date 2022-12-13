@@ -68,7 +68,7 @@ function MainNavigation() {
               About
             </li>
           </Link>
-          <Link href="/">
+          <Link href="/contact">
             <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white duration-200 sm:hover:bg-transparent">
               Contact
             </li>

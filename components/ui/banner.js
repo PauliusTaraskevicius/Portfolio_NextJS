@@ -7,13 +7,13 @@ function Banner() {
   return (
     <div className="container mx-auto px-6 pt-28 text-center grid h-screen place-items-center z-20">
       <div className="mx-auto max-w-lg">
-        <p className="my-4 text-lg  text-pink-600 dark:text-white md:text-xl text-left">
+        <p className="my-4 text-lg  text-pink-600  md:text-xl text-left">
           Hello! My name is
         </p>
-        <h1 className="text-3xl font-bold dark:text-white md:text-4xl text-left">
+        <h1 className="text-3xl font-bold  md:text-4xl text-left">
           Paulius Taraškevičius.
         </h1>
-        <p className="mt-6 text-3xl font-semibold text-zinc-500 dark:text-gray-300 text-left">
+        <p className="mt-6 text-3xl font-semibold text-zinc-500 text-left">
           Web developer from Lithuania
         </p>
 
