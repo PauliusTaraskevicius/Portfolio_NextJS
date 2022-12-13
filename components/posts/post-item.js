@@ -6,7 +6,7 @@ function PostItem(props) {
   return (
     <div>
       <Link
-        href={`/posts/${id}`}
+        href={`/projects/${id}`}
         class="relative block h-48 overflow-hidden rounded-lg shadow-xl"
       >
         <img
@@ -15,11 +15,6 @@ function PostItem(props) {
           src="https://dummyimage.com/420x260"
         />
       </Link>
-      {/* <div class="mt-4">
-  <h3 class="title-font mb-1 text-xs tracking-widest text-gray-500">PROJECT</h3>
-  <h2 class="title-font text-lg font-medium text-gray-900">The Catalyzer</h2>
-  <p class="mt-1">01/09/2022</p>
-  </div> */}
     </div>
   );
 }

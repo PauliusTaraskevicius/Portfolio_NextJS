@@ -1,8 +1,11 @@
 import Footer from "../layout/footer";
 import PostItem from "./post-item";
+import Meta from "../Meta";
 
 function PostsList({ posts }) {
   return (
+    <>
+    <Meta title='Projects' />
     <section className="container mx-auto px-6 py-16 pt-28 text-center grid h-screen place-items-center">
       <div className="container mx-auto px-5 py-10">
         <h1 className="text-3xl font-bold dark:text-white md:text-4xl ">Projects I've made</h1>
@@ -22,6 +25,7 @@ function PostsList({ posts }) {
       </div>
       <Footer />
     </section>
+    </>
   );
 }
 
