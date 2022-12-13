@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 
 import { getPostById, getAllPosts } from "../../helpers/api-util";
+import Transition from "../../components/ui/transition";
 
 import NotFound from "../404";
 
@@ -22,9 +23,9 @@ function PostDetailPage(props) {
   }
 
   return (
-    <Fragment>
+    <Transition>
       <PostDetails post={post} />
-    </Fragment>
+    </Transition>
   );
 }
 

@@ -5,7 +5,7 @@ import SocialIconsBar from "./social-icons-bar";
 
 function Banner() {
   return (
-    <div className="container mx-auto px-6 xl:py-16 xl:pt-28 text-center grid h-screen place-items-center z-20">
+    <div className="container mx-auto px-6 pt-28 text-center grid h-screen place-items-center z-20">
       <div className="mx-auto max-w-lg">
         <p className="my-4 text-lg  text-pink-600 dark:text-white md:text-xl text-left">
           Hello! My name is
@@ -34,12 +34,12 @@ function Banner() {
                 Projects
               </button>
             </Link>
-            <Link href="/experience">
+            <Link href="/skills">
               <button
                 type="button"
                 className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
               >
-                Experience
+                Skills
               </button>
             </Link>
             <Link href="/about">

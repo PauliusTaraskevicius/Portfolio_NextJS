@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { motion } from "framer-motion";
-
+import Transition from "../components/ui/transition";
 import "../styles/globals.css";
 import Layout from "../components/layout/layout";
 import Loader from "../components/ui/loader";
@@ -31,23 +30,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {loading ? (
-        <motion.main
-          initial="initial"
-          animate="animate"
-          variants={{
-            initial: {
-              opacity: 0,
-            },
-            animate: {
-              opacity: 1,
-            },
-          }}
-          transition={{ duration: 0.5 }}
-        >
+        <Transition>
           <Layout>
             <Component {...pageProps} />
           </Layout>
-        </motion.main>
+        </Transition>
       ) : (
         <Loader />
       )}
