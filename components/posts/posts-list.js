@@ -11,7 +11,7 @@ function PostsList({ posts }) {
         <h1 className="text-3xl font-bold dark:text-white md:text-4xl ">Projects I've made</h1>
         <div className="my-4 flex flex-wrap justify-center">
           {posts.map((post) => (
-            <div className="w-full p-4 sm:w-3/5 md:w-1/2 lg:w-1/4">
+            <div className="w-full p-4 sm:w-3/5 md:w-1/2 lg:w-1/4" key={post.id}>
               <PostItem
                 key={post.id}
                 id={post.id}

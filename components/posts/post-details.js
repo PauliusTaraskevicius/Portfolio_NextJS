@@ -7,19 +7,19 @@ function PostDetails({ post }) {
   return (
     <>
       <Meta title={post.title} description={post.description} />
-      <section class="container mx-auto px-6 xl:py-16 xl:pt-28 text-center grid h-screen place-items-center">
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <section className="container mx-auto px-6 xl:py-16 xl:pt-28 text-center grid h-screen place-items-center">
+        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <img
-            class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
             alt="hero"
             src="https://dummyimage.com/720x600"
           />
-          <div class="text-center lg:w-2/3 w-full">
-            <h1 class="mb-4 text-3xl font-bold dark:text-white md:text-4xl">
+          <div className="text-center lg:w-2/3 w-full">
+            <h1 className="mb-4 text-3xl font-bold dark:text-white md:text-4xl">
               {post.title}
             </h1>
-            <p class="mb-8 mt-6 text-lg tracking-wider">{post.description}</p>
-            <div class="flex justify-center">
+            <p className="mb-8 mt-6 text-lg tracking-wider">{post.description}</p>
+            <div className="flex justify-center">
               <a href={post.url} target="_blank" rel="noopener noreferrer">
                 <button className="inline-flex border-0 py-2 px-6">
                   <Image
