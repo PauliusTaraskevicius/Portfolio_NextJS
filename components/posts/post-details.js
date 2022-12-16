@@ -15,10 +15,10 @@ function PostDetails({ post }) {
             src="https://dummyimage.com/720x600"
           />
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="mb-4 text-3xl font-bold dark:text-white md:text-4xl">
+            <h1 className="textColorChange mb-4 text-3xl font-bold dark:text-white md:text-4xl">
               {post.title}
             </h1>
-            <p className="mb-8 mt-6 text-lg tracking-wider">{post.description}</p>
+            <p className="textColorChange mb-8 mt-6 text-lg tracking-wider">{post.description}</p>
             <div className="flex justify-center">
               <a href={post.url} target="_blank" rel="noopener noreferrer">
                 <button className="inline-flex border-0 py-2 px-6">

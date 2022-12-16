@@ -7,7 +7,7 @@ function PostItem(props) {
     <div>
       <Link
         href={`/projects/${id}`}
-        className="relative block h-48 overflow-hidden rounded-lg shadow-xl"
+        className=" relative block h-48 overflow-hidden rounded-lg shadow-xl"
       >
         <img
           alt="ecommerce"
