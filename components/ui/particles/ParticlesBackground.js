@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import NET from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
-
+// backgroundAlpha: 0,
 function ParticlesBackground(props) {
   const [vantaEffect, setVantaEffect] = useState(0);
   const { children } = props;

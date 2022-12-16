@@ -16,6 +16,7 @@
     "next": "13.0.5",
     "react-dom": "18.2.0",
     "react-toastify": "^9.1.1",
+    "styled-components": "^5.3.6",
     "three": "^0.147.0",
     "vanta": "^0.5.24"
   },

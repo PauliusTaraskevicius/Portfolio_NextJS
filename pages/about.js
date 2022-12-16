@@ -22,13 +22,13 @@ function About() {
                   />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
-                  <h2 className="font-medium title-font mt-4 text-gray-900 text-lg tracking-wider">
+                  <h2 className="textColorChange -medium title-font mt-4 text-gray-900 text-lg tracking-wider">
                     Paulius Taraškevičius
                   </h2>
                   <div className="w-12 h-1 bg-pink-600 rounded mt-2 mb-4"></div>
                 </div>
               </div>
-              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-pink-600 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+              <div className="textColorChange sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-pink-600 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
                   Hi! I'm Paulius and I love creating helpful tools and apps for
                   everyone to enjoy.

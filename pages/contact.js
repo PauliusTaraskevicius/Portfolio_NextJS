@@ -75,7 +75,7 @@ function Contact() {
             draggable
             pauseOnHover
           />
-          <div className="flex flex-col text-center w-full mb-12">
+          <div className="textColorChange flex flex-col text-center w-full mb-12">
             <h1 className="text-3xl font-bold dark:text-white md:text-4xl">
               Contact Me
             </h1>

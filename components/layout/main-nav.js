@@ -2,12 +2,15 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function MainNavigation() {
+import Transition from "../ui/transition";
+
+function MainNavigation(props) {
   const [open, setOpen] = useState(false);
+  const { toggleTheme, theme } = props;
 
   return (
     <>
-      <nav className="fixed top-0 w-screen sm:px-12 px-2 sm:flex justify-end items-center bg-white z-20">
+      <nav className="fixed top-0 w-screen sm:px-12 px-2 sm:flex justify-end items-center bg-transparent z-20">
         <div
           className="flex px-4 justify-between sm:py-0 pb-1"
           onClick={() => setOpen(!open)}
@@ -34,7 +37,13 @@ function MainNavigation() {
           <div className="flex float-right sm:absolute right-0 top-0 px-3 py-3">
             {" "}
             <Image
-              src="/images/day_light/moon.png"
+              className="pulse-single rounded-full cursor-pointer hover:bg-white"
+              onClick={toggleTheme}
+              src={
+                theme === "light"
+                  ? "/images/day_light/moon.png"
+                  : "/images/day_light/bulb.png"
+              }
               alt="youtube"
               width={32}
               height={32}

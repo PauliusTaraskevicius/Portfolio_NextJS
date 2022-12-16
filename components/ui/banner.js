@@ -10,14 +10,14 @@ function Banner() {
         <p className="my-4 text-lg  text-pink-600  md:text-xl text-left">
           Hello! My name is
         </p>
-        <h1 className="text-3xl font-bold  md:text-4xl text-left">
+        <h1 className="textColorChange text-3xl font-bold  md:text-4xl text-left">
           Paulius Taraškevičius.
         </h1>
         <p className="mt-6 text-3xl font-semibold text-zinc-500 text-left">
           Web developer from Lithuania
         </p>
 
-        <p className="mt-6 text-lg text-left tracking-wider">
+        <p className="textColorChange mt-6 text-lg text-left tracking-wider">
           Creating <span className="text-pink-600">web applications</span> as my
           hobby and full time job.I create custom websites, complex systems to
           help businesses do better online.
@@ -29,7 +29,7 @@ function Banner() {
             <Link href="/projects">
               <button
                 type="button"
-                className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+                className="btnColorChange h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600  hover:text-blue-500 focus:text-blue-500 focus:outline-none"
               >
                 Projects
               </button>
@@ -37,7 +37,7 @@ function Banner() {
             <Link href="/skills">
               <button
                 type="button"
-                className="h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+                className="btnColorChange h-20 px-7 m-2 rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600  hover:text-blue-500 focus:text-blue-500 focus:outline-none"
               >
                 Skills
               </button>
@@ -45,7 +45,7 @@ function Banner() {
             <Link href="/about">
               <button
                 type="button"
-                className="h-20 px-7 m-2  rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600 transition-colors hover:text-blue-500 focus:text-blue-500 focus:outline-none"
+                className="btnColorChange h-20 px-7 m-2  rounded-lg shadow-xl py-2 bg-white text-2xl text-center text-pink-600  hover:text-blue-500 focus:text-blue-500 focus:outline-none"
               >
                 About
               </button>
