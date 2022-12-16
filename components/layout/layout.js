@@ -25,10 +25,11 @@ function Layout(props) {
       <Meta />
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
-        {/* <ParticlesBackground> */}
+        
+        <ParticlesBackground></ParticlesBackground>
         <MainNavigation toggleTheme={toggleTheme} theme={theme}/>
         <main>{children}</main>
-        {/* </ParticlesBackground> */}
+ 
       </ThemeProvider>
     </Fragment>
   );
