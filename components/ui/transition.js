@@ -5,17 +5,10 @@ function Transition(props) {
 
   return (
     <motion.main
-      initial="initial"
-      animate="animate"
-      variants={{
-        initial: {
-          opacity: 0,
-        },
-        animate: {
-          opacity: 1,
-        },
-      }}
-      transition={{ duration: 1 }}
+    className="demo"
+    initial={{ y: -100 }}
+    animate={{ y: 0 }}
+    transition={{ duration: 1, type: "spring" }}
     >
       {children}
     </motion.main>

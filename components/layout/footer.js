@@ -5,7 +5,7 @@ function Footer() {
   const getCurrentYear = year.getFullYear();
 
   return (
-    <footer className="relative mt-16 xl:absolute">
+    <footer className="relative mt-16 xl:absolute xl:mb-4">
       <div className="container mx-auto px-4">
         <div className="flex flex-row justify-center tracking-wider space-x-5 text-pink-600">
           {" "}

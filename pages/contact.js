@@ -80,8 +80,7 @@ function Contact() {
               Contact Me
             </h1>
             <p className="mt-6 leading-relaxed text-lg">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
+              Currently open for freelance work!😎
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
