@@ -18,6 +18,7 @@ function PostsList({ posts }) {
                 title={post.title}
                 description={post.description}
                 url={post.url}
+                thumbnail={post.thumbnail}
               />
             </div>
           ))}

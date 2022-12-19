@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 function PostItem(props) {
-  const { title, description, url, id } = props;
+  const { id, thumbnail } = props;
 
   return (
     <div>
@@ -9,11 +9,13 @@ function PostItem(props) {
         href={`/projects/${id}`}
         className=" relative block h-48 overflow-hidden rounded-lg shadow-xl"
       >
-        <img
-          alt="ecommerce"
-          className="block h-full w-full object-cover object-center cursor-pointer"
-          src="https://dummyimage.com/420x260"
-        />
+        <div className="container max-w-screen-lg mx-auto pb-10 flex justify-center">
+          <img
+            alt="ecommerce"
+            className="block object-cover object-center cursor-pointer"
+            src={thumbnail}
+          />
+        </div>
       </Link>
     </div>
   );

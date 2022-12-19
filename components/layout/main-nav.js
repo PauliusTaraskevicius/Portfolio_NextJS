@@ -57,28 +57,28 @@ function MainNavigation(props) {
         >
           <hr className="h-px bg-gray-200"></hr>
           <Link href="/">
-            <li className="sm:hidden text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white sm:hover:bg-transparent">
+            <li className="sm:hidden text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent">
               Home
             </li>
           </Link>
           <Link href="/projects">
-            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white sm:hover:bg-transparent">
+            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent">
               Projects
             </li>
           </Link>
 
           <Link href="/skills">
-            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white sm:hover:bg-transparent">
+            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent">
               Skills
             </li>
           </Link>
           <Link href="/about">
-            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white sm:hover:bg-transparent">
+            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent">
               About
             </li>
           </Link>
           <Link href="/contact">
-            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition hover:bg-white duration-200 sm:hover:bg-transparent">
+            <li className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  duration-200 sm:hover:bg-transparent">
               Contact
             </li>
           </Link>

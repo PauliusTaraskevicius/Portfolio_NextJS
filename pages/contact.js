@@ -140,7 +140,7 @@ function Contact() {
                   Submit
                 </button>
               </div>
-              <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+              {/* <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <span className="inline-flex">
                   <a className="text-gray-500">
                     <svg
@@ -200,7 +200,7 @@ function Contact() {
                     </svg>
                   </a>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </form>
