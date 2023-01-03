@@ -12,19 +12,6 @@ function MyApp({ Component, pageProps }) {
     setTimeout(() => {
       setLoading(true);
     }, 1000);
-
-    const threeScript = document.createElement("script");
-    threeScript.setAttribute("id", "threeScript");
-    threeScript.setAttribute(
-      "src",
-      "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.147.0/three.min.js"
-    );
-    document.getElementsByTagName("head")[0].appendChild(threeScript);
-    return () => {
-      if (threeScript) {
-        threeScript.remove();
-      }
-    };
   }, []);
 
   return (
