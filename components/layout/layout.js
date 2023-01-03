@@ -1,8 +1,9 @@
 import { Fragment, useState } from "react";
 
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme } from "../../pages/theme";
-import { GlobalStyles } from "../../pages/global";
+
+import { lightTheme, darkTheme } from "../ui/theme";
+import { GlobalStyles } from "../ui/global";
 
 import Meta from "../Meta";
 import MainNavigation from "./main-nav";

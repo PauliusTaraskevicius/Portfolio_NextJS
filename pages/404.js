@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -10,7 +10,7 @@ function NotFound() {
       router.push("/");
     }, 1300);
     return () => clearTimeout(timer);
-  }, []);
+  });
 
   return (
     <main className="w-full h-screen bg-center bg-cover  flex flex-col justify-center items-center">
