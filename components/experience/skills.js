@@ -28,6 +28,16 @@ function Skills() {
           <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
             <Image
               className=" mb-3 inline-block"
+              src="/images/skills/typescript.png"
+              alt="profile"
+              width={50}
+              height={50}
+            />
+            <p className="leading-relaxed tracking-wider">Typescript</p>
+          </div>
+          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <Image
+              className=" mb-3 inline-block"
               src="/images/skills/next.png"
               alt="profile"
               width={50}
@@ -38,12 +48,12 @@ function Skills() {
           <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
             <Image
               className=" mb-3 inline-block"
-              src="/images/skills/express.png"
+              src="/images/skills/python.png"
               alt="profile"
               width={50}
               height={50}
             />
-            <p className="leading-relaxed tracking-wider">Express.js</p>
+            <p className="leading-relaxed tracking-wider">Python</p>
           </div>
           <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
             <Image
@@ -54,6 +64,28 @@ function Skills() {
               height={50}
             />
             <p className="leading-relaxed tracking-wider">Django</p>
+          </div>
+
+          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <Image
+              className=" mb-3 inline-block"
+              src="/images/skills/figma.png"
+              alt="profile"
+              width={50}
+              height={50}
+            />
+            <p className="leading-relaxed tracking-wider">Figma</p>
+          </div>
+
+          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+            <Image
+              className=" mb-3 inline-block"
+              src="/images/skills/webflow.png"
+              alt="profile"
+              width={50}
+              height={50}
+            />
+            <p className="leading-relaxed tracking-wider">Webflow</p>
           </div>
         </div>
       </div>
