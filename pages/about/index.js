@@ -1,12 +1,12 @@
-import { motion } from "framer-motion";
-import Transition from "../components/ui/transition";
+import Transition from "../../components/ui/transition";
 import Image from "next/image";
-import Meta from "../components/Meta";
-import Footer from "../components/layout/footer";
+import Meta from "../../components/Meta";
+import Footer from "../../components/layout/footer";
 
 function About() {
   return (
-    <Transition>
+    // <Transition>
+    <>
       <Meta title="About" />
       <section className="container mx-auto px-6 pt-15 text-center grid h-screen place-items-center">
         <div className="container px-5 py-24 mx-auto flex flex-col">
@@ -49,9 +49,10 @@ function About() {
             </div>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </section>
-    </Transition>
+      </>
+    // </Transition>
   );
 }
 

@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Footer from "../layout/footer";
-
-
 import Meta from "../Meta";
 
 function PostDetails({ post }) {

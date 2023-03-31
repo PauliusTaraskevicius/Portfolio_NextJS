@@ -2,7 +2,11 @@ import Transition from "../../components/ui/transition";
 import Skills from "../../components/experience/skills";
 
 function Experience() {
-  return <Transition><Skills /></Transition>;
+  return (
+    <>
+      <Skills />
+    </>
+  );
 }
 
 export default Experience;

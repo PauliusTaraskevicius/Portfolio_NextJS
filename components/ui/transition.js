@@ -13,6 +13,6 @@ function Transition(props) {
       {children}
     </motion.main>
   );
-}
+} 
 
 export default Transition;

@@ -1,9 +1,8 @@
-import Footer from "../components/layout/footer";
-import Transitions from "../components/ui/transition";
+import Transitions from "../../components/ui/transition";
 
 function Privacy() {
   return (
-    <Transitions>
+    // <Transitions>
       <div className="flex items-center justify-center min-h-screen mt-20">
         <div className="p-5 w-10/12 lg:w-3/6">
           <div className="mt-4 mb-6">
@@ -295,7 +294,7 @@ function Privacy() {
           </div>
         </div>
       </div>
-    </Transitions>
+    // </Transitions>
   );
 }
 

@@ -17,12 +17,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {loading ? (
-        <Transition>
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        </Transition>
+        // <Transition>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       ) : (
+        // </Transition>
         <Loader />
       )}
     </>

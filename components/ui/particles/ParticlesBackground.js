@@ -1,14 +1,32 @@
+
+
 import Particles from "react-tsparticles";
+// import ParticlesBg from "particles-bg";
 import { loadFull } from "tsparticles";
 
-function ParticlesBackground(props) {
-  const { children } = props;
-
+function ParticlesBackground({ height }) {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
 
   return (
+    // <ParticlesBg
+    //   id="tsparticles"
+    //   className="blurred"
+    //   type="cobweb"
+    //   color={"#EC4578"}
+    //   bg={{
+    //     position: "absolute",
+    //     width: " 100%",
+    //     height: height,
+    //     pointerEvents: "none",
+    //     zIndex: -1,
+    //     display: "block",
+    //     top: 0,
+    //     left: 0,
+    //     // backgroundColor: styles.particleBgColor,
+    //   }}
+    // />
     <Particles
       id="tsparticles"
       init={particlesInit}
@@ -32,7 +50,7 @@ function ParticlesBackground(props) {
           },
           modes: {
             push: {
-              quantity: 3,
+              quantity: 2,
             },
             grab: {
               distance: 200,
@@ -87,9 +105,7 @@ function ParticlesBackground(props) {
         },
         detectRetina: true,
       }}
-    >
-      {children}
-    </Particles>
+    />
   );
 }
 
