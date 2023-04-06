@@ -1,4 +1,5 @@
 import { Fragment, useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 
 import { ThemeProvider } from "styled-components";
 
@@ -9,13 +10,17 @@ import { motion } from "framer-motion";
 
 import Meta from "../Meta";
 import MainNavigation from "./main-nav";
-import ParticlesBackground from "../ui/particles/ParticlesBackground";
+
+const ParticlesBackground = dynamic(
+  () => import("../ui/particles/ParticlesBackground"),
+  { ssr: false }
+);
 
 function Layout(props) {
   const { children } = props;
   const [theme, setTheme] = useState("light");
   const [visible, setVisible] = useState(false);
-  
+
   const [height, setHeight] = useState("100%");
 
   useEffect(() => {
@@ -48,18 +53,19 @@ function Layout(props) {
       <Meta />
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
+
         {visible && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{
-              duration: 2,
+              duration: 1,
             }}
           >
             <ParticlesBackground height={height} />
           </motion.div>
-        ) }
+        )}
 
         <MainNavigation toggleTheme={toggleTheme} theme={theme} />
         <main>{children}</main>
