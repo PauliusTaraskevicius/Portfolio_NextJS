@@ -5,8 +5,7 @@ import Footer from "../../components/layout/footer";
 
 function About() {
   return (
-    // <Transition>
-    <>
+    <Transition>
       <Meta title="About" />
       <section className="container mx-auto px-6 pt-15 text-center grid h-screen place-items-center">
         <div className="container px-5 py-24 mx-auto flex flex-col">
@@ -51,8 +50,7 @@ function About() {
         </div>
         {/* <Footer /> */}
       </section>
-      </>
-    // </Transition>
+    </Transition>
   );
 }
 

@@ -21,9 +21,9 @@ function PostDetailPage(props) {
   }
 
   return (
-    // <Transition>
+    <Transition>
       <PostDetails post={post} />
-    // </Transition>
+    </Transition>
   );
 }
 

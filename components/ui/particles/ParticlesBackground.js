@@ -6,6 +6,7 @@ function ParticlesBackground({ height }) {
       id="tsparticles"
       type="cobweb"
       color={"#EC4578"}
+      num={20}
       bg={{
         position: "absolute",
         width: "100%",

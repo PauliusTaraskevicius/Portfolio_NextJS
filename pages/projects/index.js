@@ -5,9 +5,9 @@ import PostsList from "../../components/posts/posts-list";
 
 function Posts({ posts }) {
   return (
-    <>
+    <Transition>
       <PostsList posts={posts} />
-    </>
+    </Transition>
   );
 }
 

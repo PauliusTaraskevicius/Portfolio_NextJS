@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Footer from "../layout/footer";
 import SocialIconsBar from "./social-icons-bar";
+import Transition from '../ui/transition'
 
 function Banner() {
   return (
+    <Transition>
     <div className="container mx-auto px-6 pt-28 text-center grid h-screen place-items-center z-20">
       <div className="mx-auto max-w-lg">
         <p className="my-4 text-lg  text-pink-600  md:text-xl text-left">
@@ -54,6 +56,7 @@ function Banner() {
       </div>
       <Footer />
     </div>
+    </Transition>
   );
 }
 

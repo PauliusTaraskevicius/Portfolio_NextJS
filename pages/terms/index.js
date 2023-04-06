@@ -3,9 +3,9 @@ import MyTerms from "../../components/tems";
 
 function Terms() {
   return (
-    // <Transitions>
-    <MyTerms />
-    // </Transitions>
+    <Transitions>
+      <MyTerms />
+    </Transitions>
   );
 }
 

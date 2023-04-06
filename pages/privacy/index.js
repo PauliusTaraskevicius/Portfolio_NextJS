@@ -4,9 +4,9 @@ import MyPrivacy from "../../components/privacy";
 
 function Privacy() {
   return (
-    // <Transitions>
-    <MyPrivacy />
-    // </Transitions>
+    <Transitions>
+      <MyPrivacy />
+    </Transitions>
   );
 }
 

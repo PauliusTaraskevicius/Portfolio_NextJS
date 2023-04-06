@@ -53,7 +53,6 @@ function Layout(props) {
       <Meta />
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
-
         {visible && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -68,6 +67,7 @@ function Layout(props) {
         )}
 
         <MainNavigation toggleTheme={toggleTheme} theme={theme} />
+
         <main>{children}</main>
       </ThemeProvider>
     </Fragment>

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-import Transition from "../components/ui/transition";
 import "../styles/globals.css";
 import Layout from "../components/layout/layout";
 import Loader from "../components/ui/loader";
@@ -17,12 +16,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {loading ? (
-        // <Transition>
         <Layout>
           <Component {...pageProps} />
         </Layout>
       ) : (
-        // </Transition>
         <Loader />
       )}
     </>
