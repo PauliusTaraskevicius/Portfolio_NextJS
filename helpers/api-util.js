@@ -1,8 +1,12 @@
+import { projects } from "../portfolio";
+
 export async function getAllPosts() {
-  const response = await fetch(
-    `https://portfolio-c585b-default-rtdb.europe-west1.firebasedatabase.app/posts.json`
-  );
-  const data = await response.json();
+  // const response = await fetch(
+  //   `https://portfolio-c585b-default-rtdb.europe-west1.firebasedatabase.app/posts.json`
+  // );
+  // const data = await response.json();
+
+  const data = projects;
 
   const posts = [];
 

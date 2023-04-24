@@ -8,7 +8,7 @@ function Skills() {
   return (
     <>
       <Meta title="Skills" />
-      <section className="container mx-auto px-6 pt-15 text-center grid h-screen place-items-center">
+      <section className="container mx-auto px-6 pt-[3rem] text-center grid h-screen place-items-center">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-10">
             <h1 className="textColorChange text-3xl font-bold dark:text-white md:text-4xl">

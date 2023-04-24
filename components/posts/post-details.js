@@ -6,7 +6,7 @@ function PostDetails({ post }) {
   return (
     <>
       <Meta title={post.title} description={post.description} />
-      <section className="container mx-auto px-6 xl:py-16 xl:pt-28 text-center grid h-screen place-items-center">
+      <section className="container mx-auto px-6 pt-[3rem]  xl:py-16 xl:pt-28 text-center grid h-screen place-items-center">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <img
             className="max-w-screen-lg mb-10 object-cover object-center rounded"

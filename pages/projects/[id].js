@@ -36,7 +36,7 @@ export async function getStaticProps(context) {
     props: {
       selectedPost: post || null,
     },
-    revalidate: 30,
+    revalidate: 10,
   };
 }
 

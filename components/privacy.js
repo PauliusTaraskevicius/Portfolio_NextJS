@@ -1,6 +1,6 @@
 function MyPrivacy() {
   return (
-    <div className="flex items-center justify-center min-h-screen mt-20">
+    <div className="flex items-center justify-center min-h-screen mt-20 pt-[3rem] ">
       <div className="p-5 w-10/12 lg:w-3/6">
         <div className="mt-4 mb-6">
           <div className="textColorChange mb-3 text-2xl font-bold">

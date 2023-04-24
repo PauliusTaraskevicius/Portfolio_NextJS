@@ -7,7 +7,7 @@ function About() {
   return (
     <Transition>
       <Meta title="About" />
-      <section className="container mx-auto px-6 pt-15 text-center grid h-screen place-items-center">
+      <section className="container mx-auto px-6 pt-[3rem] text-center grid h-screen place-items-center">
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
             <div className="flex flex-col sm:flex-row mt-10">

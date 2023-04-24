@@ -56,7 +56,7 @@ function ContactMe() {
   return (
     <>
       <Meta title="Contact" />
-      <section className="container mx-auto px-6 pt-15 text-center grid h-screen place-items-center">
+      <section className="container mx-auto px-6 pt-[3rem] text-center grid h-screen place-items-center">
         <form
           ref={form}
           onSubmit={sendEmail}
