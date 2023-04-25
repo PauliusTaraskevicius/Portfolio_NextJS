@@ -37,7 +37,7 @@ export const projects = [
     goal: "To create easy to use JPEG to PDF converter with convert and download functionality.",
     image: "https://img.icons8.com/fluency/160/null/pdf.png",
     technologies:
-      "Next.js, HTML, CSS (Tailwind).Netlify for hosting.Prisma for UI/UX design",
+      "Next.js, HTML, CSS (Tailwind).Netlify for hosting.Figma for UI/UX design",
     thumbnail: "https://img.icons8.com/fluency/160/null/pdf.png",
     title: "JPEG to PDF converter",
     url: "https://jpeg-to-pdf.netlify.app/",

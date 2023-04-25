@@ -88,10 +88,9 @@ function ContactMe() {
                   <label
                     htmlFor="name"
                     className="leading-7 text-sm text-zinc-600 tracking-wider"
-                  >
-                    Name
-                  </label>
+                  ></label>
                   <input
+                    placeholder="Name"
                     type="text"
                     id="name"
                     name="name"
@@ -104,10 +103,9 @@ function ContactMe() {
                   <label
                     htmlFor="email"
                     className="leading-7 text-sm text-zinc-600 tracking-wider"
-                  >
-                    Email
-                  </label>
+                  ></label>
                   <input
+                    placeholder="Email"
                     type="email"
                     id="email"
                     name="email"
@@ -120,10 +118,9 @@ function ContactMe() {
                   <label
                     htmlFor="message"
                     className="leading-7 text-sm text-zinc-600 tracking-wider"
-                  >
-                    Message
-                  </label>
+                  ></label>
                   <textarea
+                    placeholder="Message"
                     id="message"
                     name="message"
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-600 focus:bg-white focus:ring-2 focus:ring-pink-300 h-32 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
