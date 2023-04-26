@@ -66,7 +66,7 @@ function MainNavigation(props) {
           <Link href="/">
             <li
               onClick={closeMenu}
-              className="sm:hidden text-pink-600 text-lg xl:text-xl tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition sm:hover:bg-transparent"
+              className="sm:hidden text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition sm:hover:bg-transparent"
             >
               Home
             </li>
@@ -74,7 +74,7 @@ function MainNavigation(props) {
           <Link href="/projects">
             <li
               onClick={closeMenu}
-              className="text-pink-600 text-lg xl:text-xl tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent"
+              className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent"
             >
               Projects
             </li>
@@ -83,7 +83,7 @@ function MainNavigation(props) {
           <Link href="/skills">
             <li
               onClick={closeMenu}
-              className="text-pink-600 text-lg xl:text-xl tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent"
+              className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent"
             >
               Skills
             </li>
@@ -91,7 +91,7 @@ function MainNavigation(props) {
           <Link href="/about">
             <li
               onClick={closeMenu}
-              className="text-pink-600 text-lg xl:text-xl tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent"
+              className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  sm:hover:bg-transparent"
             >
               About
             </li>
@@ -99,7 +99,7 @@ function MainNavigation(props) {
           <Link href="/contact">
             <li
               onClick={closeMenu}
-              className="text-pink-600 text-lg xl:text-xl tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  duration-200 sm:hover:bg-transparent"
+              className="text-pink-600 text-lg tracking-wider py-4 px-3 sm:border-b-2 border-transparent  sm:hover:text-blue-500 transition  duration-200 sm:hover:bg-transparent"
             >
               Contact
             </li>

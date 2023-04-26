@@ -4,7 +4,7 @@ export const projects = [
     conclusion:
       "Project still requires work, but main functionality that I wanted to achieve is done.",
     description:
-      "Main idea of this app was to allow people express their thoughts and feelings about their colleague by specific criteria e.g teamwork, reliability in a 10 point scale grading. ",
+      "Main idea of this app was to allow people express their thoughts and feelings about their colleague by specific criteria e.g teamwork, reliability in a 10 point scale grading.You can use 'test@email.com, test123' to login and experience application from staff perspective.",
     git: "https://github.com/PauliusTaraskevicius/behaviour_rating_system",
     goal: "Easy to access people main information e.g email, phone number, etc.",
     image: "https://img.icons8.com/office/160/null/groups.png",
@@ -12,7 +12,7 @@ export const projects = [
       "Django, HTML, CSS (Tailwind), PostgreSQL, Javascript.Heroku for hosting.",
     thumbnail: "https://img.icons8.com/office/160/null/groups.png",
     title: "Behaviour system",
-    url: "http://valduziedovas.pythonanywhere.com",
+    url: "https://valduziedovas.pythonanywhere.com",
   },
   {
     about: "Salary calculator based on Lithuanian tax rates.",
