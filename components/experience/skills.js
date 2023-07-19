@@ -26,6 +26,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">Javascript</p>
             </div>
@@ -36,6 +37,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">Typescript</p>
             </div>
@@ -46,6 +48,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">React/Next.js</p>
             </div>
@@ -56,6 +59,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">Python</p>
             </div>
@@ -66,6 +70,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">Django</p>
             </div>
@@ -77,6 +82,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">Figma</p>
             </div>
@@ -88,6 +94,7 @@ function Skills() {
                 alt="profile"
                 width={50}
                 height={50}
+                priority
               />
               <p className="leading-relaxed tracking-wider">Webflow</p>
             </div>

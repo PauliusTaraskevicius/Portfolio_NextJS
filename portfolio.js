@@ -56,4 +56,19 @@ export const projects = [
     title: "MovieDB API",
     url: "https://tmdb-api-movies.netlify.app",
   },
+
+  {
+    about: "Watches e-shop.",
+    conclusion:
+      "Learned how to connect database with Stripe checkout.Practiced working with modals.",
+    description: "Simple E-commerce project for selling watches.",
+    git: "https://github.com/PauliusTaraskevicius/Eshop_Typescript",
+    goal: "Create platform to add/update/delete and sell watches.",
+    image: "https://img.icons8.com/office/160/shop.png",
+    technologies:
+      "Nextjs, HTML, CSS (Tailwind), Prisma (for database), Framer (for transitions), Typescript, Stripe (for checkout).Netlify for hosting.",
+    thumbnail: "https://img.icons8.com/office/160/shop.png",
+    title: "E-commerce shop",
+    url: "https://eleganza-ecommerce.netlify.app/",
+  },
 ];

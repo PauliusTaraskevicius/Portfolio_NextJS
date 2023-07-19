@@ -34,6 +34,7 @@ function SocialIconsBar() {
               alt="profile"
               width={32}
               height={32}
+              priority
             />
           </li>
         </a>
@@ -50,6 +51,7 @@ function SocialIconsBar() {
               alt="profile"
               width={32}
               height={32}
+              priority
             />
           </li>
         </a>
@@ -66,6 +68,7 @@ function SocialIconsBar() {
               alt="profile"
               width={32}
               height={32}
+              priority
             />
           </li>
         </a>

@@ -41,6 +41,7 @@ function PostDetails({ post }) {
                     alt="profile"
                     width={50}
                     height={50}
+                    priority
                   />
                 </button>
               </a>
@@ -51,6 +52,7 @@ function PostDetails({ post }) {
                     alt="profile"
                     width={50}
                     height={50}
+                    priority
                   />
                 </button>
               </a>

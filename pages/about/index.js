@@ -18,6 +18,7 @@ function About() {
                     alt="profile"
                     width={300}
                     height={300}
+                    priority
                   />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
